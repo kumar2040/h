@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html class="pixel-ratio-1 watch-active-state"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon" href="http://thecrabteam.com/bernardo/main/images/apple-touch-icon.png">
+	<link rel="apple-touch-startup-image" href="http://thecrabteam.com/bernardo/main/images/apple-touch-startup-image-320x460.png">
+    <title>Bernardo</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="Bernardo_files/framework7.css">
+    <link rel="stylesheet" href="Bernardo_files/swipebox.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="Bernardo_files/style.css">
+	<link href="Bernardo_files/css.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body class="" id="mobile_wrap">
+
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div style="" class="panel panel-left panel-cover">
+      <div class="content-block">
+        <ul class="panel-content">
+			<li class="panel-link"><a href="http://thecrabteam.com/bernardo/main/about.html" class="close-panel"><img src="Bernardo_files/user.png" alt="about">About</a></li>
+			<li class="panel-link"><a href="http://thecrabteam.com/bernardo/main/features.html" class="close-panel"><img src="Bernardo_files/features.png" alt="about">Features</a></li>
+			<li class="panel-link"><a href="http://thecrabteam.com/bernardo/main/gallery.html" class="close-panel"><img src="Bernardo_files/gallery.png" alt="about">Gallery</a></li>
+			<li class="panel-link"><a href="http://thecrabteam.com/bernardo/main/videos.html" class="close-panel"><img src="Bernardo_files/video.png" alt="about">Videos</a></li>
+			<li class="panel-link"><a href="http://thecrabteam.com/bernardo/main/blog.html" class="close-panel"><img src="Bernardo_files/blog.png" alt="about">blog</a></li>
+		   <li class="panel-link"> <a href="http://thecrabteam.com/bernardo/main/contact.html" class="close-panel"><img src="Bernardo_files/contact.png" alt="about">contact</a></li>
+		</ul>
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+		<div class="panel-cover">
+			<div class="cover"></div>
+			<div class="cover-text">Hi, Username
+			<span>Web designer</span></div>
+		</div>
+        <ul class="panel-content">
+			<li class="panel-link">
+				<a href="#" class="close-panel">Profile
+				</a>
+			</li>
+			<li class="panel-link">
+				<a href="#" class="close-panel">Settings
+				</a>
+			</li>
+			<li class="panel-link"><a href="#" class="close-panel">Account  </a></li>
+			<li class="panel-link"><a href="#" class="close-panel">Messages <span class="badge bg-red">5</span></a></li>
+			<li class="panel-link"><a href="#" class="close-panel">Favourites</a></li>
+		   <li class="panel-link"> <a href="#" class="close-panel">Logout</a></li>
+		</ul>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div data-page="blog" class="view view-main">
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner navbar-on-left">
+          </div>
+        <div class="navbar-inner navbar-on-center">
+    <div class="left"><a href="http://thecrabteam.com/bernardo/main/index.html" class="back link" data-force="true"> <i class="icon icon-home-white"></i></a></div>
+    <div style="left: 11.5px; transform: translate3d(0px, 0px, 0px);" class="center sliding">Blog</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars color-white"></i></a>
+    </div>
+  </div></div>
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page no-navbar page-on-left" id="home">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+				<div id="cover"></div>
+				<div class="content">
+					<a href="#" id="logo"><img src="Bernardo_files/logo.png" alt="Logo"></a>
+				  </div>
+              </div>
+            </div>
+          <div data-page="blog" class="page no-toolbar page-on-center">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+		<div id="blog-page">
+			<div class="card post-card">
+			  <div class="card-header">
+				<div class="post-avatar"><img src="Bernardo_files/avatar.jpg" height="34" width="34"></div>
+				<div class="post-name">John Doe</div>
+				<div class="post-date">Monday at 2:15 PM</div>
+			  </div>
+			  <div class="card-content">
+				<div class="card-content-inner">
+				  <h4 class="title-post"><a href="http://thecrabteam.com/bernardo/main/single.html">The eye should learn to listen before it looks.</a></h4>
+				  <img src="Bernardo_files/5.jpg" class="img" width="100%">
+				  <p>What a nice photo i took yesterday! Class aptent taciti 
+sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+Proin et augue nec ex facilisis pulvinar.</p>
+				  <p class="color-gray infos">Likes: 112  -  Comments: 43</p>
+				</div>
+			  </div>
+			  <div class="card-footer no-border">
+				<a href="#" class="link">Like</a>
+				<a href="#" class="link">Comment</a>
+				<a href="#" class="link">Share</a>
+			  </div>
+			</div>
+			
+			<div class="card post-card">
+			  <div class="card-header">
+				<div class="post-avatar"><img src="Bernardo_files/avatar.jpg" height="34" width="34"></div>
+				<div class="post-name">John Doe</div>
+				<div class="post-date">Monday at 2:15 PM</div>
+			  </div>
+			  <div class="card-content">
+				<div class="card-content-inner">
+				  <h4 class="title-post"><a href="http://thecrabteam.com/bernardo/main/single.html">The eye should learn to listen before it looks.</a></h4>
+				  <img src="Bernardo_files/7.jpg" class="img" width="100%">
+				  <p>What a nice photo i took yesterday! Class aptent taciti 
+sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+Proin et augue nec ex facilisis pulvinar.</p>
+				  <p class="color-gray infos">Likes: 112  -  Comments: 43</p>
+				</div>
+			  </div>
+			  <div class="card-footer no-border">
+				<a href="#" class="link">Like</a>
+				<a href="#" class="link">Comment</a>
+				<a href="#" class="link">Share</a>
+			  </div>
+			</div>
+			
+			<div class="card post-card">
+			  <div class="card-header">
+				<div class="post-avatar"><img src="Bernardo_files/avatar.jpg" height="34" width="34"></div>
+				<div class="post-name">John Doe</div>
+				<div class="post-date">Monday at 2:15 PM</div>
+			  </div>
+			  <div class="card-content">
+				<div class="card-content-inner">
+				  <h4 class="title-post"><a href="http://thecrabteam.com/bernardo/main/single.html">The eye should learn to listen before it looks.</a></h4>
+				  <img src="Bernardo_files/1.jpg" class="img" width="100%">
+				  <p>What a nice photo i took yesterday! Class aptent taciti 
+sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+Proin et augue nec ex facilisis pulvinar.</p>
+				  <p class="color-gray infos">Likes: 112  -  Comments: 43</p>
+				</div>
+			  </div>
+			  <div class="card-footer no-border">
+				<a href="#" class="link">Like</a>
+				<a href="#" class="link">Comment</a>
+				<a href="#" class="link">Share</a>
+			  </div>
+			</div>  
+		</div>
+		<div class="content-block">
+			<a href="#" class="button button-fill color-blue" id="loadmore">Load more</a>
+		</div>
+	  
+    </div>
+  </div></div>
+		  
+		  <!-- Bottom Toolbar-->
+       <div class="toolbar tabbar toolbar-hidden">
+			<div class="toolbar-inner">
+				<a href="#" class="link open-login-screen">
+					<img src="Bernardo_files/login.png" alt="login">
+				</a>
+				<a href="http://thecrabteam.com/bernardo/main/features.html" class="link">
+					<img src="Bernardo_files/features.png" alt="features">
+				</a>
+				<a href="http://thecrabteam.com/bernardo/main/gallery.html" class="link">
+					<img src="Bernardo_files/gallery.png" alt="gallery">
+				</a>
+				<a href="http://thecrabteam.com/bernardo/main/blog.html" class="link">
+					<img src="Bernardo_files/blog.png" alt="blog">
+				</a>
+			</div>
+		</div>
+		
+        </div>
+      </div>
+	  <!-- Login Screen -->
+	  <div class="login-screen">
+		  <!-- Default view-page layout -->
+		  <div class="view">
+			<div class="page">
+			  <!-- page-content has additional login-screen content -->
+			  <div class="page-content login-screen-content">
+				<div class="login-screen-title"><img src="Bernardo_files/logo-black.png" alt="Bernardo"></div>
+				<!-- Login form -->
+				<form>
+				  <div class="list-block">
+					<ul>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">Username</div>
+						  <div class="item-input">
+							<input name="username" placeholder="Username" type="text">
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">
+							Password
+							<p class="forget-password"><a href="#" data-popup=".popup-forgot-password" class="open-popup">Forgot Password?</a></p>
+						</div>
+						  <div class="item-input">
+							<input name="password" placeholder="Password" type="password">
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list-block">
+					<ul>
+					  <li>
+						<div class="content-block">
+						<a href="#" class="item-link button button-fill color-blue">Sign In</a>
+						</div>
+					  </li>
+					</ul>
+					<div class="list-block-label">
+						Don't have an account?
+						<p><a href="#" data-popup=".popup-register" class="open-popup">Sign up</a></p>
+						<br>
+						<a href="#" class="close-login-screen button button-fill color-red">Close</a>
+					</div>
+				  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+	  </div>
+	  
+	  <!-- Register Popup -->
+	  <div class="popup popup-register">
+		  <div class="page-content login-screen-content">
+				<div class="login-screen-title"><img src="Bernardo_files/logo-black.png" alt="Bernardo"></div>
+				<!-- Login form -->
+				<form>
+				  <div class="list-block">
+					<ul>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">Username</div>
+						  <div class="item-input">
+							<input name="username" placeholder="Username" type="text">
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">Email</div>
+						  <div class="item-input">
+							<input name="email" placeholder="Email" type="email">
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">
+							Password
+						</div>
+						  <div class="item-input">
+							<input name="password" placeholder="Password" type="password">
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list-block">
+					<ul>
+					  <li>
+						<div class="content-block">
+						<a href="#" class="item-link  button button-fill color-blue">Register now</a>
+						<br>
+						<a href="#" class="button button-fill color-red close-popup">Close</a>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				</form>
+			  </div>
+	  </div>
+	  
+	  <!-- Forgot password Popup -->
+	  <div class="popup popup-forgot-password">
+		  <div class="page-content login-screen-content">
+				<div class="login-screen-title"><img src="Bernardo_files/logo-black.png" alt="Bernardo"></div>
+				<!-- Login form -->
+				<form>
+				  <div class="list-block">
+					<ul>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">Your Email</div>
+						  <div class="item-input">
+							<input name="email" placeholder="Email" type="email">
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list-block">
+					<ul>
+					  <li>
+						<div class="content-block">
+						<a href="#" class="item-link  button button-fill color-blue">Resend password</a>
+						<br>
+						<a href="#" class="button button-fill color-red close-popup">Close</a>
+						</div>
+					  </li>
+					</ul>
+					<div class="list-block-label">Check your email and follow the instructions to reset your password.</div>
+				  </div>
+				</form>
+			  </div>
+	  </div>
+	  
+    <div class="fit-vids-style">­<style>               .fluid-width-video-wrapper {                 width: 100%;                              position: relative;                       padding: 0;                            }                                                                                   .fluid-width-video-wrapper iframe,        .fluid-width-video-wrapper object,        .fluid-width-video-wrapper embed {           position: absolute;                       top: 0;                                   left: 0;                                  width: 100%;                              height: 100%;                          }                                       </style></div><script type="text/javascript" src="Bernardo_files/jquery-1.js"></script>
+	<!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="Bernardo_files/framework7.js"></script>
+    <script type="text/javascript" src="Bernardo_files/jquery_002.js"></script>
+    <script type="text/javascript" src="Bernardo_files/jquery.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="Bernardo_files/my-app.js"></script>
+  
+</body></html>
